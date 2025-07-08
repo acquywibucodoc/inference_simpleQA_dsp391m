@@ -4,7 +4,7 @@ const uploadInput = document.getElementById('bg-upload');
 const resetBtn = document.getElementById('bg-reset-btn');
 const bgDiv = document.querySelector('.background-img');
 
-const DEFAULT_BG = "/img/background.jpeg";
+const DEFAULT_BG = "/img/default-background.jpeg";
 
 function setBodyBg(url) {
     if (bgDiv) {

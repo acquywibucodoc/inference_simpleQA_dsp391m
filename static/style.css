@@ -17,7 +17,7 @@ body {
     position: fixed;
     inset: 0;
     z-index: 0;
-    background: url('/img/background.jpeg') no-repeat center center fixed;
+    background: url('/img/default-background.jpeg') no-repeat center center fixed;
     background-size: cover;
     pointer-events: none;
 }

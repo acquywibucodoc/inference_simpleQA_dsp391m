@@ -100,6 +100,7 @@ async function typeOutText(element, text, delay = 8) {
     
     // Show rating panel after typing is complete
     showRatingPanel();
+    ratingPanel.scrollIntoView({ behavior: "smooth", block: "end" });
 }
 
 // Add event listeners for rating stars
