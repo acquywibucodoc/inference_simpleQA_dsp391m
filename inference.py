@@ -9,7 +9,7 @@ device = (
     else "mps" if torch.backends.mps.is_available() else "cpu"
 )
 
-model_path = r"E:\data luatvietnam.vn\checkpoint-116000\NEW SFT TRAIN FOR SIMPLE\sft_output_simpleQA\checkpoint-15300"
+model_path = r"./checkpoint-15300" # Input your checkpoint path here
 model = AutoModelForCausalLM.from_pretrained(model_path).to(device)
 tokenizer = AutoTokenizer.from_pretrained(model_path, model_max_length=2048)
 
