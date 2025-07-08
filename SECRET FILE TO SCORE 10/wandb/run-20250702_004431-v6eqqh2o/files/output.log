@@ -1,0 +1,5 @@
+  1%|▌                                                                          | 406/53080 [06:00<10:59:36,  1.33it/s]
+{'loss': 1.1641, 'grad_norm': 1.7010842561721802, 'learning_rate': 1.98e-05, 'num_tokens': 62502.0, 'mean_token_accuracy': 0.7535129570960999, 'epoch': 0.02}
+{'loss': 0.9289, 'grad_norm': 2.0429298877716064, 'learning_rate': 1.9962627406568518e-05, 'num_tokens': 133016.0, 'mean_token_accuracy': 0.7915444940328598, 'epoch': 0.04}
+{'loss': 0.7876, 'grad_norm': 1.9225471019744873, 'learning_rate': 1.992487731219328e-05, 'num_tokens': 202767.0, 'mean_token_accuracy': 0.8194880890846252, 'epoch': 0.06}
+{'loss': 0.8709, 'grad_norm': 1.7498780488967896, 'learning_rate': 1.9887127217818045e-05, 'num_tokens': 268378.0, 'mean_token_accuracy': 0.7985409212112426, 'epoch': 0.08}

@@ -1,0 +1,32 @@
+{
+  "vnl_legal_qa": {
+    "file_name": "VNLs1mpleQA_train_alpaca.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input", 
+      "response": "output",
+      "system": "system",
+      "history": "history"
+    }
+  },
+  "vnl_legal_qa_val": {
+    "file_name": "VNLs1mpleQA_val_alpaca.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output", 
+      "system": "system",
+      "history": "history"
+    }
+  },
+  "vnl_legal_qa_test": {
+    "file_name": "VNLs1mpleQA_test_alpaca.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output",
+      "system": "system", 
+      "history": "history"
+    }
+  }
+} 
